@@ -1,3 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Styled Text Example</title>
+<style>
+  body {
+    background-color: #f9f4ed; /* لون الخلفية مشابه للصورة */
+    font-family: 'Arial Black', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .container {
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #121212;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: 'Brush Script MT', cursive;
+  }
+  .star {
+    font-size: 2rem;
+    color: black;
+    margin-right: 8px;
+  }
+  .kauthar {
+    font-family: 'Arial Black', Arial, sans-serif;
+    font-size: 3rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: black;
+    font-weight: 900;
+  }
+  .kauthar .flower {
+    width: 40px;
+    height: 40px;
+    background: #e28a9d;
+    border-radius: 50% / 30%;
+    position: absolute;
+    left: 40px;
+    top: 5px;
+    z-index: -1;
+    clip-path: polygon(
+      50% 0%,
+      61% 35%,
+      98% 35%,
+      68% 57%,
+      79% 91%,
+      50% 70%,
+      21% 91%,
+      32% 57%,
+      2% 35%,
+      39% 35%
+    );
+  }
+  .dev {
+    font-family: 'Arial Black', Arial, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 900;
+  }
+  .alhashmi {
+    font-size: 0.8rem;
+    font-family: serif;
+    position: relative;
+    top: -20px;
+    left: 5px;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <span class="star">✨</span>
+    <span>Hi There I'm</span>
+    <span class="kauthar">
+      K
+      <span class="flower"></span>
+      authar
+      <span class="alhashmi">alhashmi</span>
+    </span>
+    <span class="star">✨</span>
+    <span class="dev">Dev</span>
+  </div>
+</body>
+</html>
+ 
+ 
+ 
  # 👋 Hi, I'm Salma Alalawi  
 
 🎓 **Computer Science Graduate** – Modern College of Business and Science  
